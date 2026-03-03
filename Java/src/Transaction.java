@@ -6,7 +6,7 @@ public class Transaction {
     private String who;
     private LocalDateTime today;
 
-    public Transaction(double amount, String who,  LocalDateTime today) {
+    public Transaction(double amount, String who) {
         this.amount = amount;
         this.who = who;
         this.today = LocalDateTime.now();
