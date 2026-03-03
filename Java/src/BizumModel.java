@@ -1,12 +1,15 @@
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.ArrayList;
 
 public class BizumModel {
 
-    private int totalAmount;
-    LocalDate today = LocalDate.now();
-    LocalTime now = LocalTime.now();
-    ArrayList<String> transactions;
+    private double totalAmount;
+    ArrayList <Transaction> transactions;
 
+    public BizumModel(double totalAmount, ArrayList<Transaction> transactions) {
+        this.totalAmount = 0;
+        this.transactions = new ArrayList<>();
+    }
 }
