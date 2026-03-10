@@ -15,3 +15,5 @@ Algunas de las funciones a tener en cuenta para que todo esto funcione correctam
 - reset(): Este método solo reinicia el total a 0 después de enviar el bizum
 
 - send(): Finalmente, con este método, realizamos el bizum siempre y cuando el importe sea mayor a 0, si no, imprimirá un mensaje solictando que se añada un importe
+
+- Para realizar el bizum, hay varias opciones, ya sea marcar una cantidad por defecto (20, 50 o 100€) o marcar una cantidad exacta con el teclado númerico
