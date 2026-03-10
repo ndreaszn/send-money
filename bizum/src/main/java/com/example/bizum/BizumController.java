@@ -88,6 +88,12 @@ public class BizumController {
     }
 
     @FXML
+    private void add0() {
+        model.setDigit(0);
+        updateScreen();
+    }
+
+    @FXML
     private void reset() {
         model.resetAmount();
         updateScreen();

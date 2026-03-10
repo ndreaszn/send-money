@@ -26,6 +26,8 @@
         <Button text="8" onAction="#add8" style="-fx-font-size: 20px; -fx-min-width: 60px;" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
         <Button text="9" onAction="#add9" style="-fx-font-size: 20px; -fx-min-width: 60px;" GridPane.columnIndex="2" GridPane.rowIndex="2"/>
 
+        <Button text="0" onAction="#add0" style="-fx-font-size: 20px; -fx-min-width: 60px;" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+
         <Button text="Clear" onAction="#reset" style="-fx-font-size: 16px; -fx-min-width: 60px; -fx-text-fill: red;" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
     </GridPane>
 
