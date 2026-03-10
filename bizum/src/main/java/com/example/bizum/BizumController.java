@@ -34,6 +34,60 @@ public class BizumController {
     }
 
     @FXML
+    private void add1() {
+        model.setDigit(1);
+        updateScreen();
+    }
+
+    @FXML
+    private void add2() {
+        model.setDigit(2);
+        updateScreen();
+    }
+
+    @FXML
+    private void add3() {
+        model.setDigit(3);
+        updateScreen();
+    }
+
+    @FXML
+    private void add4() {
+        model.setDigit(4);
+        updateScreen();
+    }
+
+    @FXML
+    private void add5() {
+        model.setDigit(5);
+        updateScreen();
+    }
+
+    @FXML
+    private void add6() {
+        model.setDigit(6);
+        updateScreen();
+    }
+
+    @FXML
+    private void add7() {
+        model.setDigit(7);
+        updateScreen();
+    }
+
+    @FXML
+    private void add8() {
+        model.setDigit(8);
+        updateScreen();
+    }
+
+    @FXML
+    private void add9() {
+        model.setDigit(9);
+        updateScreen();
+    }
+
+    @FXML
     private void reset() {
         model.resetAmount();
         updateScreen();

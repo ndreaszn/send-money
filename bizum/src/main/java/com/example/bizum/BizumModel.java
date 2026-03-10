@@ -4,6 +4,10 @@ public class BizumModel {
 
     private int totalAmount = 0;
 
+    public void setDigit(int digit) {
+        totalAmount = (totalAmount * 10) + digit;
+    }
+
     public void addAmount(int amountToAdd) {
         totalAmount += amountToAdd;
     }
